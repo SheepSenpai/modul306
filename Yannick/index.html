@@ -1,10 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chrome Dino Replica</title>
+  <style>
+    canvas {
+      display: block;
+    }
+    ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    }
+    li {
+      display: inline;
+    }
+    #game {
+      width: 1500px;
+      height: 800px;
+      padding-left: 0;
+      padding-right: 0;
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+      border: 1px solid black;
+    }
+  </style>
 </head>
 <body>
-
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="news.asp">News</a></li>
+      <li><a href="contact.asp">Contact</a></li>
+      <li><a href="about.asp">About</a></li>
+    </ul>
+  </nav>
+  <canvas id="game"></canvas>
+  <script src="main.js"></script>
 </body>
 </html>
